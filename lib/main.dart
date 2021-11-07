@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:leaps_app/home_page.dart';
 import 'package:leaps_app/widgets/EventsWidget.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: EventsWidget(),
+      home: HomePage(),
     );
   }
 }
